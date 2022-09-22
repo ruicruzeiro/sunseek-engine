@@ -1,5 +1,5 @@
 # Data analysis
-- Document here the project: job_predictor
+- Document here the project: sunseek-engine
 - Description: Project Description
 - Data Source:
 - Type of analysis:
@@ -22,15 +22,15 @@ Unittest test:
 make clean install test
 ```
 
-Check for job_predictor in gitlab.com/{group}.
+Check for sunseek-engine in gitlab.com/{group}.
 If your project is not set please add it:
 
-- Create a new project on `gitlab.com/{group}/job_predictor`
+- Create a new project on `gitlab.com/{group}/sunseek-engine`
 - Then populate it:
 
 ```bash
-##   e.g. if group is "{group}" and project_name is "job_predictor"
-git remote add origin git@github.com:{group}/job_predictor.git
+##   e.g. if group is "{group}" and project_name is "sunseek-engine"
+git remote add origin git@github.com:{group}/sunseek-engine.git
 git push -u origin master
 git push -u origin --tags
 ```
@@ -41,12 +41,12 @@ Functionnal test with a script:
 cd
 mkdir tmp
 cd tmp
-job_predictor-run
+sunseek-engine-run
 ```
 
 # Install
 
-Go to `https://github.com/{group}/job_predictor` to see the project, manage issues,
+Go to `https://github.com/{group}/sunseek-engine` to see the project, manage issues,
 setup you ssh public key, ...
 
 Create a python3 virtualenv and activate it:
@@ -59,8 +59,8 @@ deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
 Clone the project and install it:
 
 ```bash
-git clone git@github.com:{group}/job_predictor.git
-cd job_predictor
+git clone git@github.com:{group}/sunseek-engine.git
+cd sunseek-engine
 pip install -r requirements.txt
 make clean install test                # install and test
 ```
@@ -70,5 +70,5 @@ Functionnal test with a script:
 cd
 mkdir tmp
 cd tmp
-job_predictor-run
+sunseek-engine-run
 ```
